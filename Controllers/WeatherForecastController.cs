@@ -11,6 +11,9 @@ namespace gitTesteArvore.Controllers
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
+
+        // CÓDIGO QUEBRADO AQUI!!!
+
         private readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
