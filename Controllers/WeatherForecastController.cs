@@ -18,8 +18,8 @@ namespace gitTesteArvore.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpPut(Name = "PutWeatherForecast")]
+        public IEnumerable<WeatherForecast> Put()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
